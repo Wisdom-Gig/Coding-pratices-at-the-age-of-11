@@ -92,6 +92,8 @@ ul.topnav li a:hover {
 
 div.box {
     text-align: center;
+    margin: 24px;
+    padding: 36px 24px 40px 24px;
   background-color: #fff;
   box-shadow: 0 0 0 1px rgba(0, 0, 0, .15), 0 2px 3px 0 rgba(0, 0, 0, .1);
 }
@@ -175,7 +177,8 @@ ul.topnav.responsive li a {
     text-align: center;
 }
 
-.col-6{
+.col-6,
+  .col-4{
     width: 100%;
     margin: 0;
 }
