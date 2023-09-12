@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Personal Portfolio Webpage</title>
+  <link rel="stylesheet" href="css of personal portfolio.css"/>
+</head>
+<body>
+  <nav id="navbar">
+    <ul id="nav-list">
+      <li>
+        <a href="#welcome-section">About</a>
+      </li>
+      <li>
+        <a href="#projects">Work</a>
+      </li>
+      <li>
+        <a href="#contact">Contact</a>
+      </li>
+    </ul>
+  </nav>
+  <section id="welcome-section" class="welcome-section">
+    <h1>Hey I am Wisdom</h1>
+    <p>a web developer<p>
+    </section> 
+  <section id="projects" class="projects">
+ <h2>These are some of my projects</h2>
+ <div class="projects-grid">
+   <a href="">
+     <img src="https://raw.githubusercontent.com/freeCodeCamp/cdn/master/build/testable-projects-fcc/images/tribute.jpg" alt="Tribute-page" class="project-img"/>
+    <p class="project-tile">Tribute Page</p>   
+       </a>
+   <a href="">
+     <img src="data:image/png;base64,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" alt="Building a calculator" class="project-img"/>
+    <p class="project-tile">Building a calculator</p>   
+       </a>
+   <a href="">
+     <img src="https://assets.codepen.io/6419580/internal/screenshots/pens/dyvweGV.default.png?fit=cover&format=auto&ha=false&height=360&quality=75&v=2&version=1623769346&width=640" alt="Product Landing page" class="project-img"/>
+    <p class="project-tile">Product Landing page</p>   
+       </a>
+   <a href="">
+     <img src="https://miro.medium.com/v2/resize:fit:695/1*BGuVJFFep1dvAiTAmideHg.png" alt="penguin" class="project-img"/>
+    <p class="project-tile">Building a penguin</p>   
+       </a>
+   <a href="">
+     <img src="https://raw.githubusercontent.com/freeCodeCamp/cdn/master/build/testable-projects-fcc/images/tribute.jpg" alt="Tribute-page" class="project-img"/>
+    <p class="project-tile"></p>   
+       </a>
+   <a href="">
+     <img src="https://raw.githubusercontent.com/freeCodeCamp/cdn/master/build/testable-projects-fcc/images/tribute.jpg" alt="Tribute-page" class="project-img"/>
+    <p class="project-tile"></p>   
+       </a>
+       </div>
+  </section>
+  <section id="contact" class="contact">
+    <div id="contact-header">
+    <h2>Let's work together...</h2>
+    <p id="contact-p">How do you take your cofee?</p>
+    </div>
+    <div id="contact-links">
+<a href="https://www.facebook.com/freecodecamp/" id="profile-link" target="_blank">
+            <i class="fab fa-facebook">Facebook</i>
+          </a>
+          <a href="https://twitter.com/freecodecamp/">
+            <i class="fab fa-twitter">Twitter</i>
+          </a>
+          <a href="https://instagram.com/freecodecamp">
+            <i class="fab fa-instagram">Instagram</i>
+          </a>
+          <a href="https://www.gmail.com/freecodecamp">
+            <i class="fab fa-gmail">Send a mail</i>
+          </a>
+
+    </div>
+  </section>
+</body>
+</html>
