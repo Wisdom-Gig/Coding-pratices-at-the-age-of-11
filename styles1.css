@@ -103,6 +103,13 @@ div.icon {
     width: 100%;
 }
 
+.learn-More {
+    font-size: 32px;
+    font-weight: 700;
+    color: #fff;
+    background-color: #0069ff;
+}
+
 div.leftSide-col {
     margin-left: 5%;
 }
