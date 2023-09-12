@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Css Website</title>
+    <link rel="stylesheet" href="styles1.css">
+</head>
+<body>
+  <nav>
+    <ul class="topnav">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#news">News</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="#about">About</a></li>
+        <li class="topnav-right"><a href="#signup">Sign Up</a></li>
+        <li class="topnav-right"><a href="#signin"> Sign In</a></li>
+        <li class="dropdownIcon"><a href="javascript:void(0);"
+          onclick="dropdownMenu()">&#9776;</a></li>
+    </ul>
+  </nav> 
+
+  <div class="container" id="section-1-gradient">
+  <div class="row">
+    <div class="col-6">
+<div class="leftSide-col">
+<h1 class="large">Crazy Radness</h1>
+<h1 class="large">Made for devslopers</h1>
+</div>
+<form>
+  <div>
+    <h2 class="leftSide-col">Username</h2>
+    <input class="inputbox"
+    name="username" type="text" placeholder="Username">
+    <h2>Password</h2><input class="inputbox"
+    name="password" type="text" placeholder="Password">'
+  </div>
+</form>
+    </div>
+    <div class="col-6">
+     <div class="rightSide-col">
+      <div class="videoContainer">
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/eTFxLVyM-g4?si=VlyY05ncifGsLXCd" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen align-text="right"></iframe>
+      </div>
+     </div>  
+    </div>
+  </div>
+  </div>
+
+<header> 
+<h1 class="section2Header">The Standard of Awesomeness</h1>
+</header>
+<div class="container">
+  <div class="row">
+    <div class="col-4">
+      <div class="box">
+        <div>
+          <img src="images/Devslopes icon.png" class="icon">
+      </div>
+      <label>Chat with Me</label>
+      <p> 
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore."</p>
+        </div>
+    </div>
+    <div class="col-4">
+      <div class="box">
+        <div>
+          <img src="images/Devslopes icon.png" class="icon">
+      </div>
+      <label>Learn to Code</label>
+      <p> 
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore."</p>
+        </div>
+    </div>
+    <div class="col-4">
+      <div class="box">
+        <div>
+          <img src="images/Devslopes icon.png" class="icon">
+      </div>
+      <label>Build an Empire</label>
+      <p> 
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore."</p>
+        </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+
+
+
+  
+  <script>
+    function dropdownMenu() {
+      var x = document.getElementById("dropdownClick");
+      if (x.className === "topnav") {
+        x.classname += " responsive";
+        /*change topnav to topnav.responsive*/
+      } else {
+        x.className ="topnav";
+      } 
+    }
+  </script> 
+</body>
+</html>
