@@ -1,0 +1,136 @@
+body {
+    background-color: #fff;
+    color: #000;
+    font-family:  'Times New Roman', ans-serif;
+}
+
+nav{
+    width: 100%;
+    margin: 0;
+    background-color: #fff;
+    border: 2px solid #fff;
+}
+
+nav ul{
+    background-color: #fff;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+ul.topnav li{
+ list-style: none;
+ float: left;
+}
+
+ul.topnav li.topnav-right{
+    float: right;
+}
+ul.topnav li a{
+    display: block;
+    text-decoration: none;
+    min-height: 16px;
+    padding: 14px;
+    text-transform: uppercase;
+    color: #666;
+}
+
+ul.topnav li a:hover {
+    background-color: #eee;
+    color: #000;
+}
+
+
+button{
+  background-color: #000;
+  color:#fff;
+  width: 120px;
+  height: 40px;
+  border-radius: 7px;
+  text-align: center;
+}
+
+.navlogo{
+    float: left;
+}
+
+.slider{
+   
+    background-size: cover;
+  height: 100%;
+   width: 100%;
+ top: 50px;
+ overflow:auto 
+}
+
+.imgcaption{
+    float: right;
+    top: 50px;
+}
+
+.container {
+    position: relative;
+}
+
+div{
+    display: flex;
+}
+
+p {
+    font-size: 28px;
+    line-height: 1.2;
+}
+
+.row{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center
+}
+
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+div.leftSide-col {
+    margin-left: 5%;
+}
+
+div.rightSide-col {
+    margin-left: 15%;
+    position: relative;
+}
+
+.top-right {
+    position: absolute;
+    top: 0;
+    right: 0;
+    transform: translate(-50%, -50%);
+    display: inline-block;
+  }
+
+.right-col{
+    text-align: center;
+    display: inline-block;
+}
+.left-col{
+    margin-left: 0;
+}
+
+
+@media screen and (max-width: 680px){
+    div.leftSide-col,
+div.rightSide-col {
+    margin: 0;
+}
+
+}

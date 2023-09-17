@@ -9,6 +9,7 @@ footer{
 body{
     line-height: 1;
     margin: 0;
+    overflow: hidden;
 }
 
 label {
@@ -19,6 +20,15 @@ label {
 p {
     font-size: 28px;
     line-height: 1.2;
+}
+
+div {
+    float: left;
+}
+
+article p{
+ font-size: 35px;
+ padding: 20px;
 }
 
 .container{
@@ -96,18 +106,33 @@ div.box {
     padding: 36px 24px 40px 24px;
     border-radius:  7px;
   background-color: #fff;
-  box-shadow: 0 0 0 1px rgba(0, 0, 0, .15), 0 2px 3px 0 rgba(0, 0, 0, .1);
+  box-shadow: 0 0 0 1px rgba(0, 0, 0, .15), 0 2px 3px 0 rgba(0, 0, 0, 1);
+}
+
+div.slopeIcon img{
+    display: block;
+    margin: auto;
+    box-shadow: -2px/*Horizontal*/ -2px/*Vertical*/ 20px/*Blur*/ 2px/*Spread*/ rgba(0/*S*/, 0/*bgcolor*/, 0/*Bx*/, .15/*opaciy*/), 2px 2px 17px 2px rgba(0/*S*/, 0/*bgcolor*/, 0/*Bx*/, 1/*opacity*/)  ;
 }
 
 div.icon {
     width: 100%;
 }
 
-.learn-More {
+button {
     font-size: 32px;
     font-weight: 700;
     color: #fff;
     background-color: #0069ff;
+    padding: 15px 60px;
+    display: block;
+    text-align: center;
+    margin: 5px;
+    border-radius: 7px;
+}
+
+button.learn-More{
+    display: block;
 }
 
 div.leftSide-col {
@@ -155,6 +180,26 @@ input[type="text"]{
     (#076DFF, #65a5ff); /* Standard syntax */
 }
 
+
+footer.footsy {
+    background-color: #666;
+    padding-left: 10%;
+}
+footer.footsy h1 {
+    background-color: #fff;
+    font-size: 35px;
+}
+footer.footsy ul {
+   list-style: none;
+   text-align: left;
+   padding-left: 0;
+}
+footer.footsy ul li{
+ color: #fff;
+ font-size: 22px;
+ line-height: 1.5;
+}
+
 /* ########### MOBILE ########### */
 @media screen and (max-width: 680px){
  ul.topnav li:not(:nth-child(1)) {
@@ -184,16 +229,41 @@ ul.topnav.responsive li a {
     display: block;
     text-align: center;
 }
+  
+h1.section2Header{
+  font-size: 50px;
+}
 
+
+article p{
+    font-size: 25px;
+}
+
+
+.col-7,
+.col-5,
 .col-6,
   .col-4{
     width: 100%;
     margin: 0;
 }
 
+div.mobilestack {
+   width: 50%;
+   display: block;  
+}
+
 div.box{
     padding: 5px;
-    display: block
+    display: block;
+}
+
+div.slopeIcon {
+    margin: 10px;
+}
+
+div.slopeIcon img {
+    width: 100%;
 }
 
 div.leftSide-col,

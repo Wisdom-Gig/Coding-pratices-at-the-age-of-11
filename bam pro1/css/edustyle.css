@@ -1,0 +1,55 @@
+nav{
+    width: 100%;
+    margin: 0;
+    background-color: #fff;
+    border: 2px solid #fff;
+}
+
+nav ul{
+    background-color: #fff;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+ul.topnav li{
+ list-style: none;
+ float: left;
+}
+
+ul.topnav li.topnav-right{
+    float: right;
+}
+ul.topnav li a{
+    display: block;
+    text-decoration: none;
+    min-height: 16px;
+    padding: 14px;
+    text-transform: uppercase;
+    color: #666;
+}
+
+ul.topnav li a:hover {
+    background-color: #eee;
+    color: #000;
+}
+
+
+.navbutton{
+  background-color: #000;
+  color:#fff;
+   width: 130px;
+   height: 40px;
+   border-radius: 20%;
+   float: right;
+}
+
+.navlogo{
+    float: left;
+}
+
+.slider{
+    background-image: url(images/slider1.jpeg);
+  height: 100%;
+   width: 100%;
+}
