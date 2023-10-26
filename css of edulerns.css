@@ -1,14 +1,16 @@
 body {
     background-color: #fff;
     color: #000;
-    font-family:  'Times New Roman', ans-serif;
+    font-family:  'Times New Roman', sans-serif;
+    overflow: hidden;
 }
 
 nav{
     width: 100%;
-    margin: 0;
+    margin: 5px;
     background-color: #fff;
     border: 2px solid #fff;
+    height: 20%;
 }
 
 nav ul{
@@ -55,7 +57,6 @@ button{
 }
 
 .slider{
-   
     background-size: cover;
   height: 100%;
    width: 100%;
@@ -112,10 +113,25 @@ div.rightSide-col {
 
 .top-right {
     position: absolute;
-    top: 0;
+    top: 100px;
     right: 0;
-    transform: translate(-50%, -50%);
-    display: inline-block;
+    margin-right: 80px;
+    font-weight: 900;
+    line-height: 60px;
+}
+.top-right2 {
+    position: absolute;
+    top: 150px;
+    right: 0;
+   margin-right: 0px;
+
+  }
+.top-right3 {
+    position: absolute;
+    top: 250px;
+    right: 0;
+    margin-right: 380px;
+    
   }
 
 .right-col{
@@ -123,9 +139,48 @@ div.rightSide-col {
     display: inline-block;
 }
 .left-col{
-    margin-left: 0;
+    margin: 0;
+    float: right;
+    display: block;
+
+}
+div{
+    display: block;
+    margin: 0;
 }
 
+div.box {
+    text-align: center;
+    margin: 24px;
+    padding: 36px 24px 40px 24px;
+    border-radius:  7px;
+  background-color: #fff;
+}
+
+button.bold{
+    color: palevioletred;
+}
+
+.button-div {
+    width: 100%;
+    height: 30%
+}
+
+.top-footer {
+    background-color: #8a2be2;
+    color: #fff;
+    width: 100%;
+    height: 30%;
+}
+
+
+.round-div{
+    width:50px;
+    height: 50px;
+    border: #f00 dashed 2px; 
+    border-radius: 50%;
+    flex-wrap: wrap;
+}
 
 @media screen and (max-width: 680px){
     div.leftSide-col,
