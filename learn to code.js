@@ -29,4 +29,34 @@ var result = 10 * ((5 + 3) - 4);
 
 
  console.log(result)
+
+
+
+//  var student1 = "Timmy";
+//  var student2 = "James";
+//  var student3 = "Aaron";
+
+//  var balances = [50.45, 400.12, -300.50];
+
+//  var studentNames = ["TImmy","James","Aaron"];
+
+//  var naughtyList = [];
+// naughtyList.push(studentNames[0]);
+
+// var index = naughtyList.indexOf("Timmy");
+
+// console.log(naughtyList);
+// if (index> -1) {
+//     naughtyList.splice(index, 1);
+// }
+
+// console.log(naughtyList)
  
+var myAccountBalance = 10000000;
+var nikeAirJordan15 = 13000; 
+
+if (nikeAirJordan15 <= myAccountBalance ){
+    myAccountBalance -= nikeAirJordan15;
+    console.log("We are rich!");
+    console.log("Account Balance:" + myAccountBalance);
+}
