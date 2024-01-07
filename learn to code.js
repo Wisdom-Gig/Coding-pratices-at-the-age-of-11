@@ -1,4 +1,4 @@
-
+//variables and stings
 // var name = " Wisdom ";
 // var age = " 12 ";
 // var shootingScore = 45.6;
@@ -15,22 +15,50 @@
 // var loginWelcomeMessage = "Welcome, " + firstName + ". Happy " + age + " rdbirthday!" ;
 
  //console.log(loginWelcomeMessage)
+// if (nikeAirJordan15 <= myAccountBalance ){
+//     myAccountBalance -= nikeAirJordan15;
+//     console.log("We are rich!");
+//     console.log("Account Balance:" + myAccountBalance);
+// }
+// else if (nikeAirJordan15 - coupon <= myAccountBalance){
+//     console.log("We are rich!"); 
+//     myAccountBalance -= nikeAirJordan15
+//     console.log("Account Balance:" + myAccountBalance)
+// }
+// else {
+//  console.log("You aint got dat money to buy em shoes bra! You aint rich.")
+// }
 
-//  var sum = 10 + 15;
-//  var sub = 10 - 15;
-//  var mul = 10 * 15;
-//  var div = 10 / 3;
-//  var mod = 10 % 3;
+// ===
+//logical operators
 
-//  var msg = "10 / 3 = 3 with a remainder of " + mod
+// if (1 === 1 && 2 === 2) {
+//      console.log("These are both true.");
 
+// }
 
-// var result = 10 * ((5 + 3) - 4);
+// if (true && true) {
+//     console.log("These are the same");
+// }
+ 
+// if (1 === 3 || "joe" === "joe") {
+//     console.log ("one of these are true");
+// }
 
+// var averageCat = 5;
+// var cuteCat = 9.999;
+// var uglyCat =  0.00000000000001
+// var uglyCatDisabledHandicap = true;
 
-//  console.log(result)
-
-
+// if (averageCat > cuteCat && averageCat > uglyCat && !uglyCatDisabledHandicap) {
+//     console.log("averageCat is the cutest ")
+// }
+// else if (cuteCat > averageCat && cuteCat > uglyCat && !uglyCatdisabledHandicap) {
+//     console.log("cuteCat is the cutest!")
+// }
+// else  if  (uglyCat > averageCat && uglyCat > cuteCat || uglyCatdisabledHandicap ) {
+//     console.log("uglyCat is the cutest")
+// }
 
 //  var student1 = "Timmy";
 //  var student2 = "James";
@@ -56,44 +84,78 @@
 // var nikeAirJordan15 = 799.23; 
 // var coupon = 500;
 
-var val1 = 12;
-var val2 = "12";
+// var val1 = 12;
+// var val2 = "12"; 
 
-if(val1 === val2) {
-    console.log("These are the same");
-}
-
-else {
-    console.log("One of those IS not like the other");
-}
-
-
-// if (nikeAirJordan15 <= myAccountBalance ){
-//     myAccountBalance -= nikeAirJordan15;
-//     console.log("We are rich!");
-//     console.log("Account Balance:" + myAccountBalance);
+// if(val1 === val2) {
+//     console.log("These are the same");
 // }
-// else if (nikeAirJordan15 - coupon <= myAccountBalance){
-//     console.log("We are rich!"); 
-//     myAccountBalance -= nikeAirJordan15
-//     console.log("Account Balance:" + myAccountBalance)
-// }
+
 // else {
-//  console.log("You aint got dat money to buy em shoes bra! You aint rich.")
+//     console.log("One of those IS not like the other");
 // }
 
-// ===
+
+//functions
+//  var sum = 10 + 15;
+//  var sub = 10 - 15;
+//  var mul = 10 * 15;
+//  var div = 10 / 3;
+//  var mod = 10 % 3;
+
+//  var msg = "10 / 3 = 3 with a remainder of " + mod
 
 
-if (1 === 1 && 2 === 2) {
-     console.log("These are both true.");
+// var result = 10 * ((5 + 3) - 4);
 
-}
 
-if (true && true) {
-    console.log("These are the same");
-}
- 
-if (1 === 3 || "joe" === "joe") {
-    console.log ("one of these are true");
+//  console.log(result)
+//Arrays
+
+// 
+
+//loops
+
+// console.log(bankBalance);
+// makeTransaction(79.00);
+// console.log(bankBalance);
+// makeTransaction(2.32);
+// console.log(bankBalance);
+// makeTransaction(10.45);
+// console.log(bankBalance);
+// makeTransaction(450.00);
+
+// var transaction = function(priceOfSale) {
+//     if (priceOfSale <= bankBalance) {
+//     bankBalance -= priceOfSale; 
+//     console.log("Purchase Succesful")
+//     } else {
+//         console.log("Insufficient Funds")
+//     }
+// }
+
+// var printCustomerName = function(first,last) {
+//     console.log("First Name:" + first + "Last Name:" + last);
+// }
+
+// var applyForCreditCard = function(creditScore, soul) {
+//     // cal some functions to process application
+// } 
+
+// var bankOperations = [];
+// bankOperations.push(transaction);
+// bankOperations.push(printCustomerName);
+// bankOperations.push(applyForCreditCard);
+
+//loops real 
+
+// var everything = 10
+// for (var x = 0; x < everything ; x++){
+//     console.log(x);
+// }
+
+var students = ["TImmy","James","Aaron","Mary","Joe"];
+
+for (var index = 0; index < students.length; index++) {
+console.log(students[index]);
 }
