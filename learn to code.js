@@ -154,8 +154,143 @@
 //     console.log(x);
 // }
 
-var students = ["TImmy","James","Aaron","Mary","Joe"];
+// var students = ["TImmy","James","Aaron","Mary","Joe"];
 
-for (var index = 0; index < students.length; index++) {
-console.log(students[index]);
-}
+// for (var index = 0; index < students.length; index++) {
+// console.log(students[index]);
+// }
+
+
+// var length1 = 15;
+// var width1 = 10;
+// var area1 = length1 * width1;
+
+// var length2 = 12;
+// var width2 = 14;
+// var area2 = length2 - width2;
+
+
+// console.log(area1);
+// console.log(area2);
+
+// function area(length, width) {
+//     return length * width;
+// }
+
+
+// var rectanglesAreas = []
+// rectanglesAreas.push(area(10,15));
+// rectanglesAreas.push(area(14,2));
+// rectanglesAreas.push(area(4,5));
+
+
+// console.log(rectanglesAreas)
+
+
+
+// var bankBalance = 500;
+
+// function makeTransaction(priceOfSale) {
+//   if(priceOfSale <= bankBalance){
+//     bankBalance -= priceOfSale
+//     console.log("Purchase Succesful")
+//   }
+// else{
+//     console.log("Insufficient Funds")
+// }
+
+// }
+// console.log(bankBalance)
+// makeTransaction(79.00);
+
+// console.log(bankBalance)
+// makeTransaction(2.32);
+
+// console.log(bankBalance)
+// makeTransaction(10.45);
+
+// console.log(bankBalance)
+// makeTransaction(450.00);
+
+// var transaction = function(priceOfSale) {
+//     if(priceOfSale <= bankBalance){
+//         bankBalance -= priceOfSale
+//         console.log("Purchase Succesful")
+//       }
+//     else{
+//         console.log("Insufficient Funds")
+//     }   
+// };
+
+
+// var printCustomerName =function(fist,last) {
+//     console.log("First Name:" + first + "LastName:" + Last)
+// }
+//     var applyForCreditCard = function(creditstore, soul) {
+// // call some functions to process this apllication
+//     }
+
+
+//     var bankOperations = [];
+//     bankOperations.push(transaction);
+//     bankOperations.push(printCustomerName) ;
+//     bankOperations.push(applyForCreditCard);
+
+
+
+
+
+//Creates a new empty object
+// var student1 = new Object();
+// student1.firstName = "Peter";
+// student1.lastName = "Parker";
+// student1.age = 7;
+
+// var student2 = {};
+// student2.firstName = "Buba";
+// student2.lastName = "Suganigadee";
+// student2.age = 18;
+
+
+
+
+var students = []
+
+function student(firstName, lastName, age) {
+    this.firstName = firstName;
+    this.lastName = lastName; 
+    this.age = age; 
+   this.greeting= function () {
+        return "Hi I'm " + this.firstName + " and I'm " + this.age + " years old. ";
+    };
+  }
+//    var s1 = new student("Idris","Elba",6);
+//    console.log(s1);
+//    console.log(s1.greeting() );
+
+students.push(new Student("Georgina","Isabellla", 27));
+students.push(new Student())
+
+// students.push(student0);
+// students.push(student1);
+// students.push(student2);
+
+//    console.log(student0.greeting())
+
+// for(var index = 0; index < students.length; index++) {
+//     console.log(students[index]);
+// }
+
+//   var student0 = {
+//       firstName: "John",
+//       lastName: "Wick",
+//       age: 7,
+//       greeting: function(){
+//           return "Hi I'm " + this.firstName + " and I'm " + this.age + " years old. ";
+//       }
+//   };
+  
+// console.log(student.firstName);
+// console.log(student.lastName);
+// console.log(student["firstName"]);
+// console.log(student["lastName"]);
