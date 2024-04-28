@@ -236,10 +236,6 @@
 //     bankOperations.push(printCustomerName) ;
 //     bankOperations.push(applyForCreditCard);
 
-
-
-
-
 //Creates a new empty object
 // var student1 = new Object();
 // student1.firstName = "Peter";
@@ -251,9 +247,6 @@
 // student2.lastName = "Suganigadee";
 // student2.age = 18;
 
-
-
-
 var students = []
 
 function student(firstName, lastName, age) {
@@ -264,12 +257,20 @@ function student(firstName, lastName, age) {
         return "Hi I'm " + this.firstName + " and I'm " + this.age + " years old. ";
     };
   }
+
+students.push(new student("Georgina","Isabellla", 27));
+students.push(new student("Messi","Ronaldo",37));
+students.push(new student("Mbappe","Haaland",24));
+
+var student = students[0];
+// for in loops
+for(var key in student){
+    console.log(student[key])
+}
+//for in loops
 //    var s1 = new student("Idris","Elba",6);
 //    console.log(s1);
 //    console.log(s1.greeting() );
-
-students.push(new Student("Georgina","Isabellla", 27));
-students.push(new Student())
 
 // students.push(student0);
 // students.push(student1);
@@ -278,7 +279,8 @@ students.push(new Student())
 //    console.log(student0.greeting())
 
 // for(var index = 0; index < students.length; index++) {
-//     console.log(students[index]);
+//     var student = students[index];
+//     console.log(student.greeting());
 // }
 
 //   var student0 = {
