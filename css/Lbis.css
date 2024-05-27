@@ -1,0 +1,21 @@
+.logo{
+    width: 100px;
+    height: 100px;
+    margin: auto;
+}
+
+nav{
+     width: 2000px;;
+     height: 70px;
+     color:#ffffff;
+     background-color: #800000;
+}
+
+h1{
+    font-size: 32px;
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
