@@ -4,7 +4,7 @@ var GtBank ="40,000,000,000,000";
 
 var balances = ["FirstBank", "AccessBank", "GtBank"];
 
-var broke = [];
+var poorGroup = [];
 broke.push(balances[0]);
 
 var index = broke.indexOf("FirstBank")
