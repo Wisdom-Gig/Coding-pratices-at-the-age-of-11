@@ -1,0 +1,207 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;       
+}
+
+body {
+  background-color: #eee;
+  font-family: 'Lato', sans-serif;
+}
+
+#nav-bar{
+top: 100%;
+left: 100%;
+position: fixed;
+width: 100%;
+left: 0;
+font-family: 'Exo 2', sans-serif;
+padding: 1em;
+}
+
+header {
+margin-top: 30px;
+display: flex;
+flex-direction: row;
+align-items: center;
+
+
+}
+
+.logo {
+width: 60vw;
+}
+
+#header-img {
+  width: 300px;
+  height: 34px;
+  margin-left: -20px;
+}
+
+ul {
+display: flex;
+justify-content: space-evenly;
+width: 40vw;
+}
+
+.nav-link {
+display: inline;
+}
+
+a {
+color: black;
+text-decoration: none;
+font-size: 20px;
+}
+
+.main-title {
+display: flex;
+align-items: center;
+flex-direction: column;
+margin-top: 100px;
+}
+
+.sub {
+display: block;
+margin: auto;
+margin-top: 10px;
+padding: 5px;
+font-size: 1em;
+
+}
+
+.btn {
+display: block;
+margin: auto;
+margin-top: 10px;
+font-size: 1em;
+padding: 5px;
+color: Black;
+background-color: Yellow;
+border: 2px solid black;
+cursor: pointer;
+}
+
+/* Information Section */
+
+.main-section {
+display: flex;
+height: 500px;
+width: 100%;
+max-width: 1000px;
+margin: auto;
+flex-direction: column;
+justify-content: space-evenly;
+border: 5px solid red;
+
+}
+
+.main-info-cont {
+display: flex;
+
+}
+
+.main-pic {
+width: 20%;
+display: flex;
+justify-content: center;
+}
+
+.main-pic > i {
+color: orange;
+}
+
+.main-info {
+width: 80%;
+}
+
+.vid {
+width: 100%;
+max-width: 1000px;
+margin: auto;
+display: flex;
+}
+
+.vid-container {
+width: 1000px;
+margin-top: 50px;
+}
+
+.video {
+width: 55%;
+margin:auto;
+}
+
+/* Pricing Section - 12.12.18 */
+
+.info {
+display: flex;
+margin-top: 50px;
+
+
+
+}
+
+.pricing-container {
+display: flex;
+width: 1000px;
+justify-content: space-between;
+margin: auto;
+border: 5px solid red;
+}
+
+.pricing-info {
+border: 3px solid black;
+padding-bottom: 10px;
+
+text-align: center;
+height: 300px;
+width: 30%;
+
+}
+
+.pricing-box-heading {
+background: grey; 
+padding: 10px 10px 10px 10px;
+font-weight: bold;
+font-size: 20px;
+}
+
+.price-tag {
+margin-top: 20px;
+font-size: 20px;
+font-weight: bold;
+}
+
+ol {
+list-style: none;
+padding: 10px; 
+}
+
+ol li {
+padding: 3px;
+}
+
+.btn2 {
+cursor: pointer;
+background: yellow;
+color: black;
+font-size: 20px;
+padding: 10px;
+border: 1px solid black;
+margin-top: 20px;
+}
+
+@media(max-width: 700px){
+#pricing{
+flex-direction: column;
+align-items: center;
+}
+
+#product{
+width: 300px;
+}
+
+
+}

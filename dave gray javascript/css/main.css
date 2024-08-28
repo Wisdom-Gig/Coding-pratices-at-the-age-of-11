@@ -1,0 +1,31 @@
+* {
+margin: 0px;
+padding: 0px;
+box-sizing: border-box;
+}
+
+:root{
+    --black--: #000;
+    --white--: #fff;
+    --h1-font-size: 250%;
+}
+
+html,
+body {
+    width: 100%;
+    font-size: 15px;
+    background-color: var(--black--);
+    color: var(--white--);
+}
+
+main{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1{
+    font-size: var(--h1-font-size);
+}
